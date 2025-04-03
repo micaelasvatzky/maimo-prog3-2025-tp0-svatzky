@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #F39057;
+  color: #130303;
+}
+
+.logo_container{
+  margin-left: 20px;
+}
+
+.logo_container img{
+  scale: 2;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 45px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #2d080a;
+  color: #ffcdbc;
+}
+
+header ul {
+  display: flex;
+  gap: 30px;
+}
+
+header .logo_container img {
+  width: 70px;
+}
+
+header a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+header a:hover{
+  color: #DD7115;
+}
+
+.hero {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/assets/imgs/dibujo\ chef.jpg');
+  color: #130303;
+  margin-bottom: 50px;
+}
+
+.recetas_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+  padding: 20px;
+}
+
+.boxed {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.receta {
+  background-color: #7c3626;
+  color: #ffcdbc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px; 
+  height: 300px; 
+}
+
+
+
+.receta img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+
+.receta a{
+  text-decoration: none;
+  color: white;
+  background-color:#DD7115;
+  font-size: 16px;
+  padding: 0 5px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.receta a:hover{
+  background-color: #2d080a;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #130303;
+  color: #ffcdbc;
+  margin-top: 30px;
+}
